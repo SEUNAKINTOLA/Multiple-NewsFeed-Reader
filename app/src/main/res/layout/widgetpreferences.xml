@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="@string/settings_widgetentrycount"
+        android:defaultValue="9"
+        android:summary="@string/settings_widgetentrycount_description"
+        android:key="widget.entrycount" 
+        android:entries="@array/settings_widget_entrycount"
+        android:entryValues="@array/settings_widget_entrycount"/>
+    <de.shandschuh.sparserss.widget.ColorPickerDialogPreference
+        android:title="@string/settings_widgetbackground"
+        android:summary="@string/settings_widgetbackground_description"
+        android:key="widget.background"
+        android:dialogLayout="@layout/colortransparencypicker"
+        android:negativeButtonText="@android:string/cancel"
+        android:positiveButtonText="@android:string/ok"/>
+    <PreferenceCategory
+        android:key="widget.visiblefeeds"
+        android:title="@string/settings_visiblefeeds" />
+</PreferenceScreen>

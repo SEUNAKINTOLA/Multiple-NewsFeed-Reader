@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2010-2012 Stefan Handschuh
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ 
+ 
+ Note for translators: only include the strings that differ from the 
+ English version. Translations will only be included in the Sparse RSS 
+ program, if they are licensed under the MIT license.
+ 
+-->
+<resources>
+    <string name="app_name">Dadvic</string>
+    <string name="menu_addfeed">Add feed</string>
+    <string name="norssfeeds">No RSS feeds</string>
+    <string name="noentries">No entries</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="contextmenu_delete">Delete</string>
+    <string name="favorites">Favorites</string>
+
+    <string name="editfeed_title">Edit feed</string>
+    <string name="newfeed_title">New feed</string>
+    <string name="contextmenu_edit">Edit</string>
+    <string name="contextmenu_refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+    <string name="contextmenu_markasread">Mark as read</string>
+    <string name="contextmenu_markasunread">Mark as unread</string>
+    <string name="contextmenu_hideread">Hide read entries</string>
+    <string name="contextmenu_showread">Show read entries</string>
+    <string name="contextmenu_copyurl">Copy link into clipboard</string>
+    <string name="contextmenu_deleteread">Delete read entries</string>
+    <string name="contextmenu_deleteallentries">Delete all entries</string>
+    <string name="contextmenu_resetupdatedate">Reset update-date</string>
+    <string name="menu_allread">Mark all as read</string>
+    <string name="menu_import">Import from OPML</string>
+    <string name="menu_export">Export to OPML</string>
+    <string name="menu_about">About</string>
+    <string name="menu_enablefeedsort">Enable feed sort</string>
+    <string name="menu_disablefeedsort">Disable feed sort</string>
+    <string name="menu_share">Share</string>
+
+    <!-- For translators: you don't need to translate or include the following string -->
+    <string name="license">Copyright &#169; 2016 Dada Victor
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation
+    </string>
+    <string name="contributors_list">Additional contributors (in graphics code):\n\n
+        - Akintola Oluwaseun Jeremiah</string>
+    <string name="license_intro">This software was developed by Dada Victor to solve the problem of inaccessibility to information when needed</string>
+    <string name="contributors"><u>Note from VicDad &gt;&gt;</u></string>
+    <string name="license_word"><u>&lt;&lt; License</u></string>
+
+    <string name="settings_category_refresh">Automated refresh</string>
+    <string name="settings_enabled">Enabled</string>
+    <string name="settings_refreshenabled_description">This setting controls the automatic refresh of all feeds</string>
+    <string name="settings_refreshinterval">Refresh interval</string>
+    <string name="settings_refreshinterval_description">Interval between two automated refreshes</string>
+
+    <string name="settings_category_notofications">Notifications</string>
+    <string name="settings_notificationsenabled_description">Controls the appearance of notifications in case of new feed content</string>
+    <string name="settings_notificationsringtone">Ringtone</string>
+    <string name="settings_notificationsringtone_description">Select a ringtone that will be played on new feed content</string>
+    <string name="settings_notificationsvibrate">Vibrate</string>
+    <string name="settings_notificationsvibrate_description">Controls if there will be vibration on new feed content</string>
+
+    <string name="settings_category_contentpresentation">Content presentation</string>
+    <string name="settings_prioritize">Prioritize unread content</string>
+    <string name="settings_prioritize_description">Show unread feed entries above read entries</string>
+    <string name="settings_keeptime">Time that the entries will be kept</string>
+    <string name="settings_keeptime_description">The entries that are older than the given date will be deleted</string>
+    <string name="settings_disablepictures">Disable pictures</string>
+    <string name="settings_disablepictures_description">Do not show and load any pictures</string>
+    <string name="settings_fetchpictures">Download pictures</string>
+    <string name="settings_fetchpictures_description">Download all pictures and store them locally</string>
+    <string name="settings_lighttheme">Light theme</string>
+    <string name="settings_lighttheme_description">Use the light theme (application will be restarted)</string>
+    <string name="settings_blacktextwhite">Black text on white background</string>
+    <string name="settings_blacktextwhite_description">Present rss entries in black text on white background</string>
+    <string name="settings_fontsize">Font size</string>
+    <string name="settings_fontsize_description">Font size for single entries</string>
+    <string name="settings_gestures">Gestures</string>
+    <string name="settings_gestures_description">Use gestures to switch entries</string>
+
+    <string name="settings_refreshonopen">Refresh feeds on open</string>
+    <string name="settings_refreshonopen_description">Refreshes all feeds after opening the application</string>
+
+    <string name="settings_overridewifionly">Override \"refresh on wifi only\"</string>
+    <string name="settings_overridewifionly_description">Allow manual refreshing of single \"wifi-only\" feeds</string>
+
+    <string name="settings_enclosuredownloadwarning">Enclosure download warning</string>
+    <string name="settings_enclosuredownloadwarning_description">Show warning before opening opening/downloading attached files</string>
+
+    <string name="settings_hideread">Hide read entries</string>
+    <string name="settings_hideread_description">Hide entries from the widget if they have been read</string>
+    <string name="settings_entrysettings">Entry settings</string>
+    <string name="settings_visiblefeeds">Visible feeds</string>
+    <string name="settings_widgetentrycount">Entry count</string>
+    <string name="settings_widgetentrycount_description">Number of entries that are shown in the widget</string>
+    <string name="settings_widgetbackground">Background</string>
+    <string name="settings_widgetbackground_description">Color and transparency of the widget background</string>
+    <string name="settings_showtabs">Show tabs</string>
+    <string name="settings_showtabs_description">Additional tabs for favorite and all feed-entries</string>
+
+    <string name="settings_category_network">Network</string>
+    <string name="settings_standarduseragent">Standard user-agent</string>
+    <string name="settings_standarduseragent_description">Use the standard user-agent name</string>
+    <string name="settings_httphttpsredirects">Follow http &lt;-&gt; https redirects</string>
+    <string name="settings_httphttpsredirects_description">Automatically follow http to https and vice versa redirects</string>
+    <string name="settings_enableefficientfeedparsing">Efficient feed parsing</string>
+    <string name="settings_enableefficientfeedparsing_description">Parsing the feed will be stopped automatically on existing or too old articles</string>
+    <string name="settings_proxy_wifionly">Wifi only</string>
+    <string name="settings_proxy_wifionly_description">Use Proxy only for wifi</string>
+    <string name="settings_proxy_host">Host</string>
+    <string name="settings_proxy_port">Port</string>
+    <string name="settings_proxy_type">Type</string>
+
+    <string name="never">never</string>
+    <string name="update">Update</string>
+    <string name="colon">:\u00A0</string>
+    <string name="unread">unread</string>
+    <string name="newentries">new entries</string>
+    <string name="rss_feeds">RSS feeds</string>
+    <string name="error">Error</string>
+    <string name="priority">Priority</string>
+    <string name="select_feeds">Select feeds</string>
+    <string name="all_feeds">All feeds (incl. future)</string>
+    <string name="all">All</string>
+    <string name="overview">Overview</string>
+    <string name="kb">kb</string>
+
+    <string name="error_feederror">The Feed URL could not accessed.</string>
+    <string name="error_feedurlexists">The URL already exists.</string>
+    <string name="error_feedimport">The selected file could not be imported.</string>
+    <string name="error_feedexport">The export has failed. Make sure you have a writable SD-card mounted.</string>
+    <string name="error_invalidimportfile">The selected file is not valid for import.</string>
+    <string name="error_externalstoragenotavailable">The external storage (e.g. SD-card)  is not available.</string>
+
+    <string name="feed_url">URL</string>
+    <string name="optional">(optional)</string>
+    <string name="websiteorfeed">(website or feed)</string>
+    <string name="feed_title">Title</string>
+    <string name="select_file">Select file (SD-root)</string>
+    <string name="refreshonwifionly">Refresh only over Wifi</string>
+    <string name="changelog">Changelog</string>
+
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="transparency">Transparency</string>
+
+    <string name="contextmenu_settings">Additional settings</string>
+    <string name="feed_other_alert_ringtone">Custom feed ringtone</string>
+    <string name="feed_other_alert_ringtone_on">Enabled: Use ringtone defined below</string>
+    <string name="feed_other_alert_ringtone_off">Disabled: Use ringtone defined in settings</string>
+    <string name="feed_alert_ringtone">Choose ringtone</string>
+    <string name="feed_skip_alert">Skip alerts</string>
+    <string name="feed_skip_alert_on">Enabled: Do NOT notify on updates</string>
+    <string name="feed_skip_alert_off">Disabled: Notify on updates</string>
+
+    <string name="question_deletefeed">Do you really want to delete this feed and all of its entries?</string>
+    <string name="question_refreshwowifi">Do you really want to refresh this feed while not being on wifi?</string>
+    <string name="question_areyousure">Are you sure?</string>
+    <string name="question_playenclosure">Do you want to download and play the file %1$s of alleged size of %2$s?\nThis may cause a lot of traffic!</string>
+
+    <string name="warning_moretraffic">Disabling this option causes  more traffic.</string>
+
+    <string name="button_accept">Accept</string>
+    <string name="button_decline">Decline</string>
+    <string name="button_alwaysokforall">Always ok for all</string>
+
+    <string name="message_exportedto">Exported into %s.</string>
+
+    <string name="dialog_licenseagreement">License</string>
+    <string name="dialog_hint">Hint</string>
+
+    <string-array name="settings_intervals">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+    </string-array>
+
+    <string-array name="settings_keeptimes">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>4 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>1 month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <item>Forever</item>
+    </string-array>
+
+    <string-array name="settings_fontsizes">
+        <item>Standard</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+    </string-array>
+
+    <string-array name="settings_proxytypes_names">
+        <item>HTTP</item>
+        <item>SOCKS</item>
+    </string-array>
+
+    <string name="permission_readfeeds">Read feed data</string>
+    <string name="permission_readfeeds_description">Allows the application to read Sparse RSS feeds and entries.</string>
+    <string name="permission_writefeeds">Write feed data</string>
+    <string name="permission_writefeeds_description">Allows the application to write Sparse RSS feeds and entries.</string>
+</resources>
